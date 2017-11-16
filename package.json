@@ -1,0 +1,25 @@
+{
+  "name": "crud-cli",
+  "version": "0.0.1",
+  "description": "crud cli",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "indmind",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^4.0.0",
+    "mongoose": "^4.13.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "cmd",
+    "command",
+    "crud",
+    "cli"
+  ]
+}
